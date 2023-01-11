@@ -4,7 +4,7 @@ const subscriberRoutes = require('./src/app')
 const mongoose = require('mongoose')
 const app = express();
 const port = process.env.PORT
-const DATABASE_URL = process.env.DATABASE_URL
+const DATABASE_URL = process.env.DATABASE_URL || ""
 
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json())
