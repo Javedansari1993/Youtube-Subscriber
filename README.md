@@ -153,10 +153,6 @@ I'm a full stack developer...Currently learning web 3.O from Almabetter
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/javed-ansari-07a327154/)
 
 ## Screenshot
-![Screenshot (5)](https://user-images.githubusercontent.com/110160515/209942361-845bd6a1-2aa3-45e7-a069-4079a5cdcf55.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/110160515/209942361-845bd6a1-2aa3-45e7-a069-4079a5cdcf55.png)
-![Screenshot (5)](https://user-images.githubusercontent.com/110160515/209942361-845bd6a1-2aa3-45e7-a069-4079a5cdcf55.png)
-
 <img width="960" alt="subscriber" src="https://user-images.githubusercontent.com/110160515/211889536-640f4bc2-0447-47e8-b7bb-ac7aff5e0f06.png">
 <img width="959" alt="subscriberId" src="https://user-images.githubusercontent.com/110160515/211889608-7ca93778-424d-4dec-811b-fa4f5b93052b.png">
-<img width="960" alt="subscriber" src="https://user-images.githubusercontent.com/110160515/211889677-88b44bfc-e823-41f4-a7cd-603cabda8a84.png">
+<img width="960" alt="defaultRoutes" src="https://user-images.githubusercontent.com/110160515/211890114-91b26efa-6e80-4a62-bf40-1d14bf879b46.png">
