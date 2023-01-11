@@ -1,5 +1,6 @@
 const express = require("express");
 const {
+  defaultRoutes,
   getSubscribers,
   getSubscriber,
   createSubscriber,
@@ -9,6 +10,9 @@ const {
 } = require("./controllers/subscriberController");
 
 const router = express.Router();
+
+// GET request for defaultRoutes
+router.get("/",defaultRoutes)
 // GET request to get all subscribers
 router.get("/subscribers", getSubscribers);
 

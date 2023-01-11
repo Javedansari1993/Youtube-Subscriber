@@ -12,7 +12,16 @@ const mongoose = require("mongoose");
 //     }
 // })
 
-
+// default routes
+const defaultRoutes = async (req, res) => {
+  try {
+    //get all subscriber with a status code of 200
+    return res.status(200).json("there is a default route using https://youtube-subscriber-lyart.vercel.app/subscribers/https://youtube-subscriber-lyart.vercel.app/subscribers for geting all subscriber");
+  } catch (error) {
+    //incase of an error , return status code of 400 with error
+    return res.status(400).json({ error: error.message });
+  }
+};
 
 //get all Subscriber
 const getSubscribers = async (req, res) => {
@@ -143,6 +152,7 @@ const updateSubscriber = async (req, res) => {
 };
 
 module.exports = {
+  defaultRoutes,
   getSubscribers,
   getSubscriber,
   createSubscriber,
