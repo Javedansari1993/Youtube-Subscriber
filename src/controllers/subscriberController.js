@@ -37,7 +37,7 @@ const getSubscribers = async (req, res) => {
   }
 };
 
-// get a single workout for a perticular id
+// get a single subscriber for a perticular id
 const getSubscriber = async (req, res) => {
   try {
     const { id } = req.params;

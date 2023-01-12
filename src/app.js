@@ -14,7 +14,7 @@ const router = express.Router();
 // GET request for defaultRoutes
 router.get("/",defaultRoutes)
 // GET request to get all subscribers
-router.get("/subscribers", getSubscribers);
+router.get("/subscribers", getSubscribers)
 
 //GET request for the path '/subscribers/names
 router.get("/subscribers/names", getNameSubscribers);
