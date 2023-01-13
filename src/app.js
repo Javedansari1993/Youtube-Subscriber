@@ -6,15 +6,15 @@ const {
   createSubscriber,
   deleteSubscriber,
   updateSubscriber,
-  getNameSubscribers
+  getNameSubscribers,
 } = require("./controllers/subscriberController");
 
 const router = express.Router();
 
 // GET request for defaultRoutes
-router.get("/",HomeRoutes)
+router.get("/", HomeRoutes);
 // GET request to get all subscribers
-router.get("/subscribers", getSubscribers)
+router.get("/subscribers", getSubscribers);
 
 //GET request for the path '/subscribers/names
 router.get("/subscribers/names", getNameSubscribers);
@@ -29,6 +29,6 @@ router.post("/subscribers", createSubscriber);
 router.delete("/subscribers/:id", deleteSubscriber);
 
 //Patch request for update as per id
-router.patch("/subscribers/:id",updateSubscriber);
+router.patch("/subscribers/:id", updateSubscriber);
 
 module.exports = router;
