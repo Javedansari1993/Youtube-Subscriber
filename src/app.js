@@ -1,6 +1,6 @@
 const express = require("express");
 const {
-  defaultRoutes,
+  HomeRoutes,
   getSubscribers,
   getSubscriber,
   createSubscriber,
@@ -12,7 +12,7 @@ const {
 const router = express.Router();
 
 // GET request for defaultRoutes
-router.get("/",defaultRoutes)
+router.get("/",HomeRoutes)
 // GET request to get all subscribers
 router.get("/subscribers", getSubscribers)
 

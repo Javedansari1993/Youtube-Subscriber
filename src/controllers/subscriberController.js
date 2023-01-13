@@ -1,5 +1,6 @@
 const Subscriber = require("../models/subscribers");
 const mongoose = require("mongoose");
+const subscribers = require("../models/subscribers");
 
 //Initial add data to database
 // const data = require("../data");
@@ -13,16 +14,19 @@ const mongoose = require("mongoose");
 // })
 
 // default routes
-const defaultRoutes = async (req, res) => {
+const HomeRoutes = async (req, res) => {
   try {
     //get all subscriber with a status code of 200
-    return res.status(200).json("there is a default route using this after the URL /subscribers for geting all subscriber");
+    return res
+      .status(200)
+      .json(
+        "Its a Home route after the URL endpoint using /subscribers for geting all subscriber"
+      );
   } catch (error) {
     //incase of an error , return status code of 400 with error
     return res.status(400).json({ error: error.message });
   }
 };
-
 
 //get all Subscriber
 const getSubscribers = async (req, res) => {
@@ -92,6 +96,7 @@ const createSubscriber = async (req, res) => {
   }
 };
 
+
 //DELETE a subscriber
 const deleteSubscriber = async (req, res) => {
   try {
@@ -119,6 +124,7 @@ const deleteSubscriber = async (req, res) => {
     return res.status(400).json({ error: error.message });
   }
 };
+
 
 //PATCH request for update a subscriber
 const updateSubscriber = async (req, res) => {
@@ -153,7 +159,7 @@ const updateSubscriber = async (req, res) => {
 };
 
 module.exports = {
-  defaultRoutes,
+  HomeRoutes,
   getSubscribers,
   getSubscriber,
   createSubscriber,
