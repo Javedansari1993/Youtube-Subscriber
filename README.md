@@ -128,7 +128,7 @@ https://drive.google.com/file/d/1jYGspRzzJojKfMVnDZwXkXyykVc73r2b/view?usp=shari
 
 ## Deployment
 Deployment link:
- https://youtube-subscriber-lyart.vercel.app/subscribers
+ https://youtube-subscriber-lyart.vercel.app/
 
 
 
